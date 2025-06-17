@@ -45,4 +45,31 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}/* Style pour la section des résultats */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
+th, td {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Style pour la galerie photo */
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.galerie img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
