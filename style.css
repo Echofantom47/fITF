@@ -1,75 +1,23 @@
-/* style.css */
 body {
-    font-family: Arial, sans-serif;
-    background: #f7f9fc;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("logo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #d0e1f9;
 }
 
-header {
-    background: #005baa;
-    color: white;
-    text-align: center;
-    padding: 2rem 1rem;
-}
-
-header .devise {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 0.5rem;
-    color: #ffeb3b;
-}
-
-section {
-    padding: 2rem;
-    max-width: 900px;
-    margin: auto;
-}
-
-section h2 {
-    color: #005baa;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 0.5rem;
-}
-
-ul {
-    list-style: square inside;
-    margin-top: 1rem;
-}
-
-footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-}/* Style pour la section des résultats */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-th, td {
-  border: 1px solid #ffffff;
-  padding: 10px;
+main {
+  padding: 40px;
   text-align: center;
-  color: white;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0); /* fond transparent */
 }
 
-/* Style pour la galerie photo */
-.galerie {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 20px;
-  justify-content: center;
+h2 {
+  font-size: 30px;
+  color: #001f4d;
 }
-.galerie img {
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
-  border: 2px solid white;
-}
-
