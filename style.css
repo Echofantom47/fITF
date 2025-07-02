@@ -1,0 +1,48 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #005baa;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header .devise {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #ffeb3b;
+}
+
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    color: #005baa;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style: square inside;
+    margin-top: 1rem;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
